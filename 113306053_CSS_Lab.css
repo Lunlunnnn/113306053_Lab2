@@ -1,0 +1,57 @@
+.headbar {
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    color: white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: royalblue;
+    color: white;
+}
+a {
+    color: white;
+}
+nav {
+    font-weight: bold;
+    color: white;
+    border: 2px solid royalblue;
+    text-align: center;
+    width: 10em;
+    background-color: royalblue;
+}
+nav ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav:hover ul {
+    display: block;
+}
+nav ul li {
+    border-top: 2px solid royalblue;
+    background-color: white;
+    width: 10em;
+    color: black;
+}
+nav ul li:hover {
+    background-color: powderblue;
+}
+a {
+    text-decoration: none;
+}
+.paragraph a {
+    color: black;
+}
+.paragraph {
+    background-color: lightgrey;
+    height: 100;
+}
+@media all (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
